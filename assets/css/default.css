@@ -931,3 +931,16 @@
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+/* Custom */
+
+.supporterslogo {
+  width: 200px;
+  height: 164px;
+}
+
+.no-svg .supporterslogo {
+  width: 200px;
+  height: 164px;
+  background-image: url(./assets/supporters/empty.png);
+}
